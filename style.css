@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#game
+{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 3rem auto;
+}
+
+#block
+{
+    height: 70px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    top: 230px;
+    left: 560px;
+    animation: move 1s linear infinite;
+}
+
+@keyframes move {
+    0%
+    {
+        left: 560px;
+    }
+
+    100%
+    {
+        left: 0px;
+    }
+}
+
+#dino
+{
+    position: relative;
+    top: 160px;
+    left: 0px;
+}
+
+#dino img
+{
+    height: 70px;
+    width: 68px;
+}
+
+#result
+{
+    height: 200px;
+    width: 400px;
+    background: cornflowerblue;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+
+#score
+{
+    font-size: 2.2rem;
+    color: burlywood;
+}
+
+#btn
+{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: cyan;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+ 
